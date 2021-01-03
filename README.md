@@ -10,8 +10,8 @@ Terminal commands used:<br>
 cd package<br>
 python setup.py sdist<br>
 pip install twine<br>
-twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+twine upload --repository-url https://test.pypi.org/legacy/ dist/*<br>
 pip install --index-url https://test.pypi.org/simple/ dsnd-probability
 
-Test package to install
+Test package to install<br>
 pip install -i https://test.pypi.org/simple/ matrix-package-krp
